@@ -25,12 +25,11 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-mourner": "^1.0.1",
     "eslint-plugin-import": "^2.26.0",
-    "simpleheat": "~0.2.0",
-    "uglify-js": "^2.5.0"
+    "simpleheat": "~0.2.0"
   },
   "scripts": {
     "test": "eslint src",
-    "prepublish": "uglifyjs node_modules/simpleheat/simpleheat.js src/HeatMap.js -c -m -o dist/leaflet-heatmap.js"
+    "prepublish": "terser node_modules/simpleheat/simpleheat.js src/HeatMap.js -c -m -o dist/leaflet-heatmap.js"
   },
   "license": "BSD-2-Clause"
 }
