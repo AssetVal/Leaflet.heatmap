@@ -1,6 +1,6 @@
 {
   "name": "@abaccus/leaflet.heatmap",
-  "version": "0.2.0",
+  "version": "0.2.5",
   "description": "A tiny and fast Leaflet heatmap plugin.",
   "homepage": "https://github.com/AssetVal/Leaflet.heatmap",
   "keywords": [
@@ -28,7 +28,7 @@
   },
   "scripts": {
     "test": "eslint src",
-    "prepublish": "terser node_modules/simpleheat/simpleheat.js src/HeatMap.js -c -m -o dist/leaflet-heatmap.js"
+    "prepublish": "terser node_modules/simpleheat/simpleheat.js src/HeatMap.js --source-map -c -m -o dist/index.js "
   },
   "license": "BSD-2-Clause"
 }
