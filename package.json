@@ -1,5 +1,5 @@
 {
-  "name": "leaflet.heatmap",
+  "name": "@abaccus/leaflet.heatmap",
   "version": "0.2.0",
   "description": "A tiny and fast Leaflet heatmap plugin.",
   "homepage": "https://github.com/AssetVal/Leaflet.heatmap",
