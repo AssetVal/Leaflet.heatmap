@@ -10,7 +10,7 @@
     ".vscode": true,
     "**/*.d.ts": true,
     "**/*.js": false,
-    "**/*.js.map": true
+    "**/*.js.map": false
   },
   "explorerExclude.backup": null
 }
